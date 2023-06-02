@@ -1,0 +1,178 @@
+body{
+    height: 100%;
+  
+}
+svg{
+    color: white;
+}
+.centre{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    display: flex;
+    /* idhi middle lo unnavi tab anedhi kinda line kosam Fd rasam*/                                     
+    flex-direction: column;
+    /*idhe mo banner img kosam gap lekunbda*/
+    padding: 0px;
+}
+.row{
+    background-color: black;
+    height:100%
+}
+.left-container{
+    display:flex;    
+    flex-direction: column;
+    /*idhi twi. icon left side kosam*/
+    padding-left: 80px;
+
+}
+img{
+    height:35px;
+    width: 35px;
+    margin: 12px 0;
+   
+}
+.left-menu{
+    margin: 16px 0;
+    color:white;
+    font-size: larger;
+
+}
+.search-setting{
+    margin: 20px 0 0 34px;
+}
+
+/* idhi middle this css*/
+.search-wrapper{
+        /* ee color twiter wesite go to inspect right click..idhi akkada vala website nundi copy chesi paste chesina*/
+    background-color: rgb(32, 35,39);
+    padding: 4px 18px;
+    margin-top: 6px;
+    border-radius: 24px;
+    display: flex;
+    width:90%;
+    height: fit-content;
+}
+.search-icon{
+    margin:12px 0 0 16px;
+    color: white;
+}
+.search-box{
+    padding: 4px 12px;
+    /* ol anedhi line kanipisthundhi idhi pedithey kanipinchadu*/
+    outline: none;
+    width:100%;    
+    border: none;
+    height: 42px;
+    color: white;
+    /*border-radius: inherit;*/
+    background-color: inherit; 
+
+}
+/* idhi anchor tag inspect lo dhi edhi..ikkada important anedhi just highest priority ani artham*/
+a{
+    color:gray !important;
+}
+/* idhi only "FOR YOU"" the matrame..ee css anedhi inspect ki velli thisukunnadhi*/
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: inherit;
+    border: none;
+    /* important means just highest priority*/
+    color:gray !important;
+    
+}
+/* idhi kuda inspect lo dhi line border povadaniki*/
+.nav-tabs{
+    border-bottom: none !important;
+}
+.banner-img{
+    background-attachment: fixed !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    background-size: 100%;
+    height: 300px;
+    background:url("https://pbs.twimg.com/media/FBwJ-CpVUAIQEC5.jpg");
+    padding: 16px;
+}
+.top-news{
+    display: flex;
+    height: 90px;
+    color: white;
+    padding: 5px;
+}
+.top-news p:nth-child(1), p:nth-child(3){
+    color: red;
+    font-size: smaller;
+}
+.top-news img{
+    border-radius: 12px;
+}
+.top-news p:nth-child(2){
+    color: gray;
+    font-size: x-large;
+
+}
+.footer-row{
+    display: flex;
+}
+.footer{
+    background-color: rgb(29, 155, 240);
+    height: 70px;
+    position: fixed;
+    width:100%;
+    bottom: 0;
+}
+.footer-centre p:nth-child(1){
+    color:white;
+    font-size: x-large;
+    margin: 0px;
+
+}
+.footer-row div:nth-child(3){
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    border-radius: 12px;
+
+}
+.login{
+    color: white;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin: 0 12px;
+}
+.signup{
+    background-color: white;
+    color:black;
+    margin: 0 12px;
+}
+.card{
+    margin: 6px;
+    background-color: transparent;
+    border: 0.5px solid red;
+    border-radius: 12px;
+    color:white;
+    padding: 8px;
+    width:100%;
+}
+.subtitle{
+    font-size: x-small;
+    color: gray;
+}
+.btn-signup{
+    width:100%;
+    height: 42px;
+    border-radius: 25px;
+    /* ee margin only top and bottom not lft and right*/
+    margin: 6px 0;
+}
+.msg{
+    color:yellow;
+    font-size:small;
+}
+.footer-a{
+    color: blue !important;
+}
